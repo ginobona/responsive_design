@@ -1,0 +1,69 @@
+body, main, h1, p {
+  margin: 0px 150px 0px;
+  padding: 0;
+  border: 0;
+}
+@media (max-width: 1040px) {
+  body {
+    background-color: black;
+    font-family: Helvetica Neue, Helvetica;
+    color: white;
+  }
+  body a {
+    color: orange;
+    text-decoration: none;
+  }
+  body a:hover {
+    color: yellow;
+  }
+  body .content {
+    margin: 0 0 0 auto;
+    padding-left: 50px;
+  }
+  body .content h1 {
+    font-weight: normal;
+    padding: 5px 0px 0px;
+    font-size: 8rem;
+  }
+  body .content p {
+    font-size: 1rem;
+    margin: 5px 0px 10px;
+  }
+  header {
+    display: flex;
+  }
+  img {
+    display: block;
+  }
+}
+@media (min-width: 1040px) {
+  body {
+    background-color: black;
+    font-family: Helvetica Neue, Helvetica;
+    color: white;
+  }
+  body a {
+    color: orange;
+    text-decoration: none;
+  }
+  body a:hover {
+    color: yellow;
+  }
+  body .content {
+    background: url("ginobona.png") no-repeat top right;
+    margin: 0 0 0 auto;
+    padding-left: 50px;
+  }
+  body .content h1 {
+    font-weight: normal;
+    padding: 25px 0px 0px;
+    font-size: 8rem;
+  }
+  body .content p {
+    font-size: 1rem;
+    margin: 5px 0px 10px;
+  }
+}
+img {
+  display: none;
+}
